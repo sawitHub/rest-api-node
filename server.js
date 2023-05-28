@@ -15,6 +15,9 @@ app.use(express.urlencoded({extended: true}))
 //routers 
 const router = require('./routes/articleRoutes.js')
 app.use('/api/articles', router)
+const router = require('./routes/tipRoutes.js')
+app.use('/api/tips', router)
+
 
 //test api 
 app.get('/', (req,res)=> {

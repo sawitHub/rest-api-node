@@ -21,7 +21,7 @@ const addArticle = async(req, res) => {
 // 2. get all article 
 
 const getAllArticle = async(req, res) => {
-    let articles = await Product.findAll({
+    let articles = await Article.findAll({
         attributes : [
             'judul',
             'isi'
@@ -34,7 +34,7 @@ const getAllArticle = async(req, res) => {
 
 const getOneArticle = async(req, res) => {
     let id = req.params.id
-    let article = await Product.findOne({ where : {id:id}})
+    let article = await Article.findOne({ where : {id:id}})
     res.status(200).send(article)
 }
 
@@ -42,7 +42,7 @@ const getOneArticle = async(req, res) => {
 
 const updateArticle= async(req, res) => {
     let id = req.params.id
-    const aarticle = await Article.update(req.body, {where: {id:id}})
+    const article = await Article.update(req.body, {where: {id:id}})
     res.status(200).send(article)
 }
 

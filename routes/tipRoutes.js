@@ -1,42 +1,11 @@
-const express = require('express');
-const router = express.Router();
+const tipController = require('../controllers/tipController.js')
+const router = require('express').Router()
 
-router.get('/', (req, res, next) => {
-    res.status(200).json({
-        message: 'GET Request dari Tips'
-    });
-});
+//list router
+router.post('/addTip', tipController.addTip)
+router.get('/allTip', tipController.getAllTip)
+router.get('/:id', tipController.getOneTip)
+router.put('/:id', tipController.updateTip)
+router.delete('/:id', tipController.deleteTip)
 
-router.get('/', (req, res, next) => {
-    res.status(200).json({
-        message: 'POST Request dari Tips'
-    });
-});
-
-router.post('/', (req, res, next) => {
-    res.status(201).json({
-        message: 'Tips berhasil di post'
-    });
-});
-
-router.get('/:tipsID', (req, res, next) => {
-    res.status(200).json({
-        message: 'Halaman isi Tips',
-    });
-});
-
-router.patch('/:tipsID', (req, res, next) => {
-    res.status(200).json({
-        message: 'Tips di Update',
-    });
-});
-
-router.delete('/:tipsID', (req, res, next) => {
-    res.status(200).json({
-        message: 'Tips berhasil dihapus',
-    });
-});
-
-
-module.exports= router;
-
+module.exports = router

@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-const artikelRoutes = require('./api/routes/artikel');
-const tipsRoutes = require('./api/routes/tips');
+const artikelRoutes = require('./routes/artikel');
+const tipsRoutes = require('./routes/tips');
 const bodyParser = require('body-parser');
 
 

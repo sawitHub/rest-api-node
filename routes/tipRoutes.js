@@ -1,4 +1,4 @@
-const tipController = require('../controllers/tipController.js')
+const tipController = require('../controllers/tipControler.js')
 const router = require('express').Router()
 
 //list router

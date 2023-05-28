@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const artikelRoutes = require('./api/routes/artikel');
 const tipsRoutes = require('./api/routes/tips');
+const bodyParser = require('body-parser');
 
 
 // app.use((req, res, next) => {
@@ -10,6 +11,8 @@ const tipsRoutes = require('./api/routes/tips');
 //     });
 // });
 
+app.use(bodyParser.urlencoded({extended: false}));
+app,use(bodyParser.json());
 app.use('/artikel', artikelRoutes);
 app.use('/tips', tipsRoutes); 
 

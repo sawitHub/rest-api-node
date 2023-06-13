@@ -34,8 +34,8 @@
   ```json
   
     {
-        "judul": "kwkwkwk",
-        "isi": "kwkwkw"
+        "judul": "Merupakan Judul Artikel",
+        "isi": "Merupakan Isi Artikel"
     }
 
   ```
@@ -52,8 +52,8 @@
   ```json
   
     {
-        "judul": "kwkwkwk",
-        "isi": "kwkwkw"
+        "judul": "Merupakan Judul Artikel",
+        "isi": "Merupakan Isi Artikel"
     }
 
   ```
@@ -90,8 +90,8 @@
   ```json
   
     {
-        "judul": "kwkwkwk",
-        "isi": "kwkwkw"
+        "judul": "Merupakan Judul Tip",
+        "isi": "Merupakan Isi Tip"
     }
 
   ```
@@ -108,8 +108,8 @@
   ```json
   
     {
-        "judul": "kwkwkwk",
-        "isi": "kwkwkw"
+        "judul": "Merupakan Judul Tip",
+        "isi": "Merupakan Isi Tip"
     }
 
   ```

@@ -26,7 +26,7 @@
 - URL
   - /api/article/AllArticle
 - Method
-  - POST
+  - GET
 - Request Body
   - <font style="color: green">judul</font>
   - <span style="color: green">isi</span>
@@ -44,7 +44,7 @@
 - URL
   - /api/article/OneArticle
 - Method
-  - POST
+  - GET
 - Request Body
   - <font style="color: green">judul</font>
   - <span style="color: green">isi</span>
@@ -82,7 +82,7 @@
 - URL
   - /api/tips/AllTip
 - Method
-  - POST
+  - GET
 - Request Body
   - <font style="color: green">judul</font>
   - <span style="color: green">isi</span>
@@ -100,7 +100,7 @@
 - URL
   - /api/tips/OneTip
 - Method
-  - POST
+  - GET
 - Request Body
   - <font style="color: green">judul</font>
   - <span style="color: green">isi</span>

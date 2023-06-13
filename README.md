@@ -51,20 +51,13 @@
   - <span style="color: green">isi</span>
 - Response
   ```json
-
-[
+  
+  [
     {
         "judul": "kwkwkwk",
         "isi": "kwkwkw"
     }
-], 
-
-[
-    {
-        "judul": "kwkwkwk",
-        "isi": "kwkwkw"
-    }
-], 
+]
 
   ```
 

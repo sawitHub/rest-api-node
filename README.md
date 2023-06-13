@@ -22,7 +22,7 @@
   ```
  
  
-  ## GET ARTICLE (Get Article)
+  ## GET Semua Artikel
 - URL
   - /api/article/AllArticle
 - Method
@@ -78,7 +78,7 @@
   ```
   
    
-  ## GET TIPS (Get TIPS)
+  ## GET Semua TIPS (Get TIPS)
 - URL
   - /api/tips/AllTip
 - Method
@@ -96,7 +96,7 @@
 
   ```
   
-    ## GET TIPS (Get TIPS)
+    ## GET Satu TIPS (Get TIPS)
 - URL
   - /api/tips/OneTip
 - Method

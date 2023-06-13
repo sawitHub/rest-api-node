@@ -36,14 +36,13 @@
     "judul": "kwkwkwk",
     "isi": "kwkwkw",
     "updatedAt": "2023-06-13T14:36:28.072Z",
-    "createdAt": "2023-06-13T14:36:28.072Z"
-
-  ```
-    "id": 2,
+    "createdAt": "2023-06-13T14:36:28.072Z",
+ "id": 2,
     "judul": "kwkwkwk",
     "isi": "kwkwkw",
     "updatedAt": "2023-06-13T14:36:28.072Z",
     "createdAt": "2023-06-13T14:36:28.072Z"
 
   ```
+
   
